@@ -12,15 +12,18 @@ select {
     padding: 1rem;
     padding-right: 2rem;
     color:darkslategray;
-    font-size:20px;
+    font-size:15px;
+    margin-left:40px;
 }
 td {
     border:1px solid #dfdfdf;
-    background-color: cornflowerblue;
-    width:80px;
-    height:45px;
+    background-color: dodgerblue;
+    width:50px;
+    height:50px;
     text-align: center;
     color: white;
+    font-family: "DejaVu Sans";
+    font-size:20px;
 }
 #empty {
     background-color: transparent;
@@ -29,4 +32,22 @@ td {
 }
 #daysOfWeek {
     background-color: orangered;
+}
+#today {
+    background-color: red;
+    font-size:25px;
+}
+#container {
+    width:400px;
+    height: 400px;
+    margin:auto auto;
+    margin-top:50px;
+    border:2px solid #dfdfdf;
+    padding:20px;
+}
+#sunday {
+    background-color: lightcoral;
+}
+#saturday {
+    background-color: lightgray;
 }
